@@ -1,0 +1,65 @@
+.header{
+    background-color: gray;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+    font-size: xx-large;
+    color: white
+}
+
+.inputAmount{
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    background: white;
+}
+
+.yourAmount{
+    background-color: white;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+    font-weight: 800
+}
+
+.youPurchase{
+    background-color: tan;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.box{
+    background-color: gray;
+    text-align: center;
+    height: 240px;
+    padding-top: 20px; 
+
+    display: inline-block;
+    padding-right: 22px;
+}
+
+.child{
+    margin-left: 65px;
+    background-color: white;
+    text-align: center;
+    height: 170px;
+    width: 140px;
+    margin: auto;
+    background: beige;
+}
+
+.childHead{
+    background-color: green;
+    text-align: center;
+    height: 43px;
+}
+
+.logics{
+    padding-top: 120px;
+}
+
+.col{
+    background-color: gray;
+
+}
