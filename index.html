@@ -11,79 +11,60 @@
 </head>
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="header">Fruit Shop</div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <div class="yourAmount">I Have RS 
-                    <input class="inputAmount" type="button" value="80">
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <div class="youPurchase">Your Total Is RS.
-                    <span>27</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                    <div class="child">
-                       <div class="childHead">
-                            <div class="logics">
-                                    <input type="button" value="+">
-                                    <input type="button" value="0">
-                                    <input type="button" value="-">
-                            </div>
+        <header>
+                <h1>Fruit Shop</h1>
+            </header>
+            <section class="amount">
+                <h2>I have Rs. <input type="text" min="1"></h2>
+            </section>
+            <section class="total">
+                <h3>Your total is Rs. <span></span></h3>
+            </section>
+            <section class="fruits">
+                    <div class="apple">
+                        <div class="price">
+                            <p>Rs. 10</p>
+                        </div>
+                        <figure>
+                            <img src="images/16-red-apple-png-image.png">
+                            <figcaption>Apple</figcaption>
+                        </figure>
+                        <div class="btn">
+                            <button class="subtract" onclick="decreaseApple()">-</button>
+                            <input type="text" id="app"  value="0">
+                            <button onclick="increaseApple()" class="add">+</button>
+                        </div>
+                    </div>
+                    <div class="orange">
+                        <div class="price">
+                            <p>Rs. 15</p>
+                        </div>
+                        <figure>
+                            <img src="images/1-2-orange-picture.png">
+                            <figcaption>Orange</figcaption>
+                        </figure>
+                        <div class="btn">
+                            <button class="subtract" onclick="decreaseOrange()">-</button>
+                            <input type="text" id="oran" value="0">
+                            <button onclick="increaseOrange()" class="add">+</button>
+                        </div>
+                    </div>
+                    <div class="banana">
+                        <div class="price">
+                            <p>Rs. 7</p>
+                        </div>
+                        <figure>
+                            <img src="images/4-2-banana-picture.png">
+                            <figcaption>Banana</figcaption>
+                        </figure>
+                        <div class="btn">
+                            <button class="subtract" onclick="decreaseBanana()">-</button>
+                            <input type="text" id="bana" value="0">
+                            <button class="add" onclick="increaseBanana()">+</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col">
-                <div class="child">
-                   <div class="childHead">
-                        <div class="logics">
-                            <input type="button" value="+">
-                            <input type="button" value="0">
-                            <input type="button" value="-">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="child">
-               <div class="childHead">
-                    <div class="logics">
-                            <input type="button" value="+">
-                            <input type="button" value="0">
-                            <input type="button" value="-">
-                    </div>
-            </div>
-        </div>
-    </div>
-                <!-- <div class="youPurchase">
-                    
-                    </div> -->
-
-                    <!-- <div class="youPurchase">
-                    
-                        </div> -->
-        </div>
-
-
-    </div>
-
-
-
+            </section>
     <script src="logics.js"></script>
 </body>
 </html>

@@ -1,65 +1,122 @@
-.header{
-    background-color: gray;
-    text-align: center;
-    height: 80px;
-    padding-top: 20px;
-    font-size: xx-large;
-    color: white
+body {
+    margin: 0;
 }
 
-.inputAmount{
-    cursor: pointer;
-    border-radius: 20px;
-    width: 100px;
-    background: white;
+h1 {
+    color: white;
+    font-size: bold;
+    background-image: linear-gradient(#42474d, #61687d, #42474d);
+    margin: 0;
+    padding: 25px;
+    text-align: center;
 }
 
-.yourAmount{
-    background-color: white;
+.amount {
+    background-color: #ffffff;
+    font-weight: bold;
     text-align: center;
-    height: 80px;
-    padding-top: 20px;
-    font-weight: 800
 }
 
-.youPurchase{
-    background-color: tan;
+.amount input {
+    border-radius: 50px;
+    border: 1px solid #c3c3c3;
+    padding: 15px 0px;
+    width: 120px;
+    border-radius: 50px;
+    border: 1px solid #c3c3c3;
+    padding: 15px 0px;
+    width: 120px;
     text-align: center;
-    height: 80px;
-    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1em;
 }
 
-.box{
-    background-color: gray;
-    text-align: center;
-    height: 240px;
-    padding-top: 20px; 
+.total {
+    background-color: #efe2cc;
+}
 
+.total h3 {
+    font-size: 2em;
+    font-weight: 400;
+    padding: 50px 0px;
+    text-align: center;
+    margin: 0;
+}
+
+.total span{
+    font-size: 1.8em;
+    color: #e43c26;
+}
+
+.fruits {
+    background-image: linear-gradient(#42474d, #61687d, #42474d);
+    display: flex;
+    flex: 1;
+    margin-bottom: 4em;
+}
+
+.fruits img {
+    height: 70px;
+}
+
+
+
+.price {
+    color: #ead8ad;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #346d34;
+    text-align: center;
+    padding: 7px 0px;
+    margin: 0;
+}
+
+.apple, .orange, .banana {
+    background-color: #ffffff;
+    margin: 0 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.fruits {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+button {
+    background-color: #404645;
+    color: #ffffff;
+    border: none;
     display: inline-block;
-    padding-right: 22px;
+    font-size: 1em;
 }
 
-.child{
-    margin-left: 65px;
-    background-color: white;
+div.btn .subtract {
+    border-radius: 15px 0 0 15px;
+    width: 25px;
+}
+
+div.btn .add {
+    border-radius: 0px 15px 15px 0px;
+    width: 25px;
+}
+
+div.btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px
+}
+
+.btn input {
+    border: 1px solid #222;
+    width: 50px;
+    height: 26px;
     text-align: center;
-    height: 170px;
-    width: 140px;
-    margin: auto;
-    background: beige;
-}
-
-.childHead{
-    background-color: green;
-    text-align: center;
-    height: 43px;
-}
-
-.logics{
-    padding-top: 120px;
-}
-
-.col{
-    background-color: gray;
-
+    font-weight: bold;
 }
