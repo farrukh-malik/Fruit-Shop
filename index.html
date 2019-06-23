@@ -15,7 +15,7 @@
                 <h1>Fruit Shop</h1>
             </header>
             <section class="amount">
-                <h2>I have Rs. <input type="text" min="1"></h2>
+                <h2>I have Rs. <input class="yourAmountInput" type="text" min="1"></h2>
             </section>
             <section class="total">
                 <h3>Your total is Rs. <span></span></h3>
@@ -23,44 +23,44 @@
             <section class="fruits">
                     <div class="apple">
                         <div class="price">
-                            <p>Rs. 10</p>
+                            Rs.<span class="demo">10</span>
                         </div>
                         <figure>
                             <img src="images/16-red-apple-png-image.png">
                             <figcaption>Apple</figcaption>
                         </figure>
                         <div class="btn">
-                            <button class="subtract" onclick="decreaseApple()">-</button>
+                            <button class="subtract" onclick="applePriceMinus()">-</button>
                             <input type="text" id="app"  value="0">
-                            <button onclick="increaseApple()" class="add">+</button>
+                            <button onclick="applePriceAdd()" class="add">+</button>
                         </div>
                     </div>
                     <div class="orange">
                         <div class="price">
-                            <p>Rs. 15</p>
+                            Rs.<span class="price">15</span>
                         </div>
                         <figure>
                             <img src="images/1-2-orange-picture.png">
                             <figcaption>Orange</figcaption>
                         </figure>
                         <div class="btn">
-                            <button class="subtract" onclick="decreaseOrange()">-</button>
+                            <button class="subtract" onclick="orangePriceeMinus()">-</button>
                             <input type="text" id="oran" value="0">
-                            <button onclick="increaseOrange()" class="add">+</button>
+                            <button onclick="orangePriceAdd()" class="add">+</button>
                         </div>
                     </div>
                     <div class="banana">
                         <div class="price">
-                            <p>Rs. 7</p>
+                            Rs.<span class="price">7</span>
                         </div>
                         <figure>
                             <img src="images/4-2-banana-picture.png">
                             <figcaption>Banana</figcaption>
                         </figure>
                         <div class="btn">
-                            <button class="subtract" onclick="decreaseBanana()">-</button>
+                            <button class="subtract" onclick="bananaPriceMinus()">-</button>
                             <input type="text" id="bana" value="0">
-                            <button class="add" onclick="increaseBanana()">+</button>
+                            <button class="add" onclick="bananaPriceAdd()">+</button>
                         </div>
                     </div>
                 </div>
