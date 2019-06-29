@@ -18,7 +18,7 @@
                 <h2>I have Rs. <input class="yourAmountInput" type="text" min="1"></h2>
             </section>
             <section class="total">
-                <h3>Your total is Rs. <span></span></h3>
+                <h3>Your total is Rs. <span class="totalBuy"></span></h3>
             </section>
             <section class="fruits">
                     <div class="apple">
@@ -31,7 +31,7 @@
                         </figure>
                         <div class="btn">
                             <button class="subtract" onclick="applePriceMinus()">-</button>
-                            <input type="text" id="app"  value="0">
+                            <input type="text" class="appleFlag"  value="0">
                             <button onclick="applePriceAdd()" class="add">+</button>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                         </figure>
                         <div class="btn">
                             <button class="subtract" onclick="orangePriceeMinus()">-</button>
-                            <input type="text" id="oran" value="0">
+                            <input type="text" class="orangeFlag" value="0">
                             <button onclick="orangePriceAdd()" class="add">+</button>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                         </figure>
                         <div class="btn">
                             <button class="subtract" onclick="bananaPriceMinus()">-</button>
-                            <input type="text" id="bana" value="0">
+                            <input type="text" class="bananaFlag" value="0">
                             <button class="add" onclick="bananaPriceAdd()">+</button>
                         </div>
                     </div>
